@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="document.getElementById('id001').style.display='block'" style="width: auto;">Sign Up</button>
+    <div id="id001" class="signupmodal">
+        <span onclick="document.getElementById('id001').style.display='none'" class="close" title="closemodal">&times;</span>
+        <form class="signup_modal" action="/action_page.php">
+            <div class="container">
+                <h1>Sign Up</h1>
+                <p>Start your 30-days free trial</p><hr>
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Your Name" name="name" required>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Your Email" name="email" required>
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Your Password" name="password" required>
+                <label for="company-name"><b>Company Name</b></label>
+                <input type="text" placeholder="Enter Your Company Name" name="company-name" required>
+                <label for="identification-number"><b>Identification Number</b></label>
+                <input type="number" placeholder="Enter your Identification Number" name="identification-number" required>
+                <label for="director-name"><b>Director Name</b></label>
+                <input type="text" placeholder="Enter Your Director Name" name="director-name" required>
+                <label>
+                    <div class="checkbox">
+                        <input type="checkbox" checked="checked" required>
+                        <p>
+                            By creating an acount you agree to our 
+                            <a href="#">Terms & Privacy</a>.
+                        </p>
+                    </div>
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id001')" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                </label>
+            </div>
+        </form>
+    </div>
+    <script>
+        var signupmodal = document.getElementById('id001')
+        window.onclick = function(event){
+            if (event.target == signupmodal){
+                signupmodal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

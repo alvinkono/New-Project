@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0dfdf;
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstlogo{
+    width: 60px;
+}
+.navlink{
+    width: 700px;
+}
+.navlink a{
+    padding: 0 15px;
+    font-size: 20px;
+}
+.main1{
+    display: flex;
+
+}
+.section1, .section2, .section3{
+    padding: 0 30px;
+}
+.section111{
+    height: 35px;
+    border-radius: 7px;
+}
+.section112{
+    background-color: blueviolet;
+    height: 35px;
+    border-radius: 7px;
+}
+.section112 img{
+    width: 10px;
+
+}
+.slideimage{
+    width: fit-content;
+    margin: 10px;
+}
+.slideimage img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.delogplus{
+    display: flex;
+    
+}
+.dprice{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2 .dprice .leftdprice{
+    padding: 0;
+    margin: 0;
+}
+.section2 .dprice .rightdprice{
+    align-items: flex-end;
+}
+.section21, .section22, .section23{
+    margin: 6px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.section21 .mylogo, .section22 .mylogo, .section23 .mylogo{
+    width: 40px;
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.section21 a img, .section22 a img, .section23 a img{
+    float: right;
+}
+span{
+    background-color: blueviolet;
+    color: white;
+    padding: 3px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+.main2{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding: 40px 0;
+}
+.tittle h1{
+    margin: 0;
+}
+.tittle p{
+    text-align: center;
+}
+.sea{
+    display: flex;
+
+}
+.air{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 60px 40px;
+}
+.readmore{
+    border-radius: 25px;
+    width: 125px;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: left;
+}
+.readmore img{
+    float: right;
+}
+.section101, .section104{
+    padding: 0 30px;
+}
+.section1011{
+    border: 1px solid hsl(0, 33%, 89%);
+    border-radius: 10px;
+    background-color: #bbb7b7;
+    width: 300px;
+    margin: 15px 0;
+    padding: 5px;
+}
+.section1011 p{
+    margin: 0;
+    padding: 8px;
+    
+}
+.reason{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reason p{
+    text-align: center;
+}
+.bigj{
+    width: 60rem;
+    padding: 40px 0;
+}
+.section1001{
+    height: fit-content;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #bbb7b7;
+}
+.section10011 h1{
+    margin: 0;
+    text-align: center;
+}
+.section10011 p{
+    margin-top: 2px;
+    text-align: center;
+}
+.main4{
+    background-color: #ffffff;
+    display: flex;
+    padding: 60px 25px;
+
+}
+.section10000{
+    width: 50%;
+}
+.section10001{
+    width: 50%;
+    height: fit-content;
+    padding: 20px;
+}
+.map{
+    width: 100%;
+}
+.first{
+    margin: 15px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid #aaa3a3;
+    border-radius: 10px;
+}
+.one{
+    padding: 0 15px;
+}
+.pin{
+    height: 20px;
+    padding-right: 15px;
+}
+.iconic{
+    padding-left: 5px;
+}
+.groupic{
+    padding: 0 15px;
+    height: 25px;
+    
+}
+.sectionf{
+    background-color: #241d1d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.sectionff1{
+    background-color: white;
+}
+.sectionff2{
+    background-color: #ccc7c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+.sectionff2 h1{
+    margin: 0;
+}
+.sectionff2 form{
+    margin: 10px;
+}
+.email {
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+}
+.Subscribe{
+    height: 30px; 
+    border-radius: 5px;
+    background-color: #8c57bd;
+    color: white;
+
+}
+.space{
+    background-color: #ffffff;
+    height: 40px;
+}
+.sectionff3{
+    margin: 0;
+    background-color: #51485a;
+    color: rgb(236, 233, 233);
+}
+.dwncut, .upcut{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px 5px 20px;
+}
+.help{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.help li a{
+    padding: 0 10px;
+    color: #ffffff;
+}
+.special{
+    background-color: #51485a;
+    border: 0.1px solid white;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 0;
+}
+.sites{
+    width: 300px;
+}
+.sites a img{
+    float: right;
+    padding: 0 10px;
+}
